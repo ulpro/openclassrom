@@ -11,7 +11,7 @@ pipeline {
       parallel {
         stage('Test') {
           steps {
-            build 'projet'
+            echo 'unit'
           }
         }
 
